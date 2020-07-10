@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("../fonts/ProximaNova-RegularIt.ttf");
+}
+
+@font-face {
+    font-family: 'ProximaNovaSemibold', sans-serif;
+    src: url("../fonts/ProximaNova-Semibold.ttf");
+}

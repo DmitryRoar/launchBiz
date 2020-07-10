@@ -1,0 +1,280 @@
+@media (max-width: 1420px) {
+    .main-content__h1 {
+        font-size: 24px;
+    }
+
+    .main-content__p {
+        font-size: 1.2rem;
+    }
+    
+    .header-auth__btn {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 1308px) {
+    .ref-menu {
+        flex-direction: column;
+    }
+
+    .ref-menu__a {
+        bottom: 50%;
+        transform: translateY(50%);
+    }
+
+    .ref-menu__right {
+        margin: 0;
+        display: block;
+    }
+
+    .ref-menu__input {
+        margin-right: 20px;
+    }
+
+    .started-menu__card-wrap {
+        flex-direction: column;
+        margin: 102px 0 0 0;
+    }
+
+    .mission-wrapper {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .mission__block {
+        margin-top: 20px;
+    }
+
+    .started-menu__card {
+        margin: 0 auto 50px auto;
+    }
+
+    .started-card__a.active__button {
+        padding: 12px 30px 20px 30px;
+    }
+
+    .qa-list {
+        display: block;
+    }
+
+    .qa-img {
+        margin: 20px 0;
+        /*img center*/
+        /*justify-content: center;*/
+        /*display: flex;*/
+    }
+}
+
+
+@media (max-width: 1299px) {
+
+    .started-menu__card:nth-child(2) {
+        margin-top: 40px;
+    }
+
+    .started-menu__card:nth-child(3) {
+        margin-top: 40px;
+    }
+
+    .header__nav-a {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 1259px) {
+    .header-menu__burger {
+        display: block;
+    }
+
+    .header-menu {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .header__nav-ul, .header__nav {
+        display: none;
+    }
+
+    .header-content {
+        justify-content: center;
+    }
+    
+    .header-auth {
+        display: none;
+    }
+}
+
+@media (max-width: 1184px) {
+    .footer-auth__a {
+        padding: 15px 25px 12px 25px;
+    }
+
+    .footer-nav__ul {
+        margin: 0;
+    }
+}
+
+@media (max-width: 805px) {
+    .main-content__info {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 725px) {
+    .main-content__info {
+        margin-right: 0;
+    }
+
+    .ref-menu__span {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 706px) {
+    .main-content__img {
+        display: none;
+    }
+
+    .header__hr {
+        transform: translateX(-5px);
+    }
+
+    .main-content__info {
+        font-size: 1rem;
+    }
+
+    .main-share__readMore {
+        padding: 2px 5px;
+        font-size: 1.2rem;
+    }
+
+    .main-content {
+        padding: 45px 0 0 0;
+        flex-direction: column;
+    }
+
+    .main-content__img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .main-content__p {
+        padding: 0;
+    }
+
+    .main-share {
+        padding: 15px 0 0 0;
+    }
+
+    .content {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 603px) {
+
+    .footer-navigation {
+        flex-direction: column;
+    }
+
+    .footer-nav {
+        margin: 50px 0;
+    }
+
+    .footer-nav__ul {
+        margin: 0 40px;
+    }
+
+    .footer-nav__li {
+        text-align: center;
+    }
+
+    .footer-contact-upper__ul {
+        flex-direction: column;
+    }
+
+    .footer-search-seti {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 492px) {
+
+    .missionAndStartedTitle {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .main-content__h1 {
+        font-size: 18px;
+    }
+
+    .main-content__p {
+        font-size: 1.1rem;
+    }
+
+    .main-share__svg {
+        width: 20px;
+    }
+
+    .main-footer__ul {
+        flex-direction: column;
+    }
+
+    .main-footer__li {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .main-share__arrowRight {
+        display: none;
+    }
+
+    .main-share__svg {
+        width: 20px;
+    }
+
+    .main-share__li {
+        padding: 2px 8px;
+    }
+
+    .main-share {
+        position: relative;
+        left: 46%;
+        transform: translate(-50%);
+    }
+
+/*  ==========  */
+    .started-menu__card:nth-child(1) {
+        margin: 0 0 0 0;
+    }
+
+    .started-menu__card-wrap {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .missionAndStartedTitle {
+        white-space: nowrap;
+    }
+
+    .started-card__a {
+        white-space: nowrap;
+    }
+
+    .ref-menu__button {
+        bottom: -70px;
+    }
+
+    .ref-menu__p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
