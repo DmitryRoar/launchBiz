@@ -1,10 +1,10 @@
-const $ = selector => document.querySelector(selector)
+const $c = selector => document.querySelector(selector)
 const $$ = selector => document.querySelectorAll(selector)
 
-const burgerBtn = $('.header-menu__burger')
-const burgerMenu = $('.burger-menu')
+const burgerBtn = $c('.header-menu__burger')
+const burgerMenu = $c('.burger-menu')
 
-const header = $('header')
+const header = $c('header')
 
 
 burgerBtn.addEventListener('click', () => {
@@ -22,4 +22,16 @@ canStartedBtn.forEach(btn => {
     })
 })
 
-console.log('hello')
+$$('.reg__btn').forEach(regBtn => {
+    regBtn.addEventListener('click', () => {
+        $('.modalReg').modal()
+    })
+})
+
+$$('.auth__btn').forEach(regBtn => {
+    regBtn.addEventListener('click', () => {
+        $('.modalAuth').modal()
+    })
+})
+
+// console.log('%chello!!!', 'color: red')

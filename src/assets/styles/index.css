@@ -95,12 +95,15 @@ button {
 .header-auth__btn {
   font-size: 1rem;
   transition: .4s;
+
 }
 
 .header-auth {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* temp */
+  margin-bottom: 10px;
 }
 
 .active__button {
@@ -711,4 +714,80 @@ footer {
 
 .footer__mobile {
   display: flex;
+}
+
+.modal-header {
+  padding: 70px 0 0 0;
+  font-size: 2rem;
+  color: var(--color-link);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #161616;
+  max-width: 433px;
+  min-height: 585px;
+  margin: 0 auto;
+  top: 150px;
+  box-shadow: 0 0 27px rgba(255, 114, 0, 0.1);
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-form__input {
+  min-width: 200px;
+  max-width: 300px;
+  background: none;
+  border: none;
+  padding: 9px 0;
+  border-bottom: 3px solid var(--qa-list);
+  border-radius: 2px;
+  color: var(--modal-input);
+  margin-bottom: 20px;
+}
+
+.modal-form__input::placeholder {
+  color: var(--modal-input);
+}
+
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-footer {
+  border-top: 0;
+  flex-direction: column;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.modal-footer__reg {
+  color: var(--modal-input);
+  padding: 11px 39px 12px 40px;
+  border: 2px solid var(--qa-list);
+  border-radius: 18px;
+  margin: 20px 0;
+}
+
+.modal-footer__sign {
+  margin-bottom: 10px;
+}
+
+.modal__hr {
+  margin: 30px auto;
+}
+
+.modal-body {
+  flex: 0 1 auto;
 }
