@@ -126,6 +126,7 @@ header {
     border-radius: 2px;
     padding: 0 93px 6px 1px;
     margin: 0 0 30px 0;
+    font-size: 1.1rem;
 }
 
 .deposit__submit {
@@ -195,4 +196,12 @@ header {
 
 .burger-menu__content.burger-lk-menu__content {
     top: 35%;
+}
+
+.modal {
+    top: -10%;
+}
+
+.burger-auth {
+    bottom: -40%;
 }
