@@ -181,3 +181,18 @@ header {
 .main-lk {
     border-bottom: 1px solid var(--color-link);
 }
+
+.burger-lk__nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: -120px 0;
+}
+
+.burger-menu.burger-lk-menu {
+    top: 269px;
+}
+
+.burger-menu__content.burger-lk-menu__content {
+    top: 35%;
+}
