@@ -226,6 +226,15 @@
     .footer-search-seti {
         margin-bottom: 10px;
     }
+    
+    .dynamic-list__ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dynamic-list__li {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 510px) {

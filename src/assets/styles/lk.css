@@ -68,6 +68,7 @@ header {
 .menu-wrap {
     padding: 90px 0 0 0;
     display: flex;
+    margin: 0 0 40px 0;
 }
 
 .main__minus {
@@ -92,6 +93,7 @@ header {
     color: var(--color-link);
     width: 100%;
     margin: 0 0 90px 0;
+    display: none;
 }
 
 .menu-info__headline {
@@ -99,14 +101,14 @@ header {
     justify-content: center;
 }
 
-.main-nav__a {
+.main-nav__button {
+    color: var(--color-link);
     text-transform: capitalize;
 }
 
 .deposit-wrapper {
     display: flex;
     justify-content: space-between;
-    margin: 100px 0;
     align-self: center;
 }
 
@@ -204,4 +206,79 @@ header {
 
 .burger-auth {
     bottom: -40%;
+}
+
+.feedback-info {
+    display: none;
+}
+
+.patners__span {
+    text-align: center;
+    margin: 0 0 52px 0;
+
+}
+
+.partners__btn {
+    display: flex;
+    align-items: center;
+    color: var(--color-link);
+}
+
+.partners__button {
+    display: flex;
+    justify-content: center;
+}
+
+.partners__vk {
+    margin-right: 10px;
+}
+
+.menu-headline__span {
+    margin: 0 0 52px 0;
+}
+
+.patners__p {
+    margin-top: 10px;
+}
+
+.active__button.support__btn {
+    background: none;
+    border: 3px solid var(--qa-list);
+    border-radius: 25px;
+    padding: 8px 25px;
+}
+
+.partners__button.promo__button {
+    align-items: center;
+    flex-direction: column;
+}
+
+.partners__button-span {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.promo__span {
+    background: var(--promo-background);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 15px;
+    box-shadow: 0 0 27px rgba(255, 114, 0, 0.1);
+    margin: 0 0 20px 0;
+}
+
+.promo__link {
+    margin: 0 0 55px 0;
+}
+
+.promo__banner {
+    font-size: 1.8rem;
+}
+
+.promo-div__banner {
+    margin: 0 0 100px 0;
+}
+
+.support-info {
+    display: block;
 }
