@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LK</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="src/assets/styles/lk.css">
     <link rel="stylesheet" href="src/assets/styles/media.css">
 </head>
@@ -44,9 +45,9 @@
                     </div>
                 </div>
 
-            <div class="burger-menu">
-                <div class="burger-menu__content">
-                    <nav class="burger__nav">
+            <div class="burger-menu burger-lk-menu">
+                <div class="burger-menu__content burger-lk-menu__content">
+                    <nav class="burger__nav burger-lk__nav">
                         <ul class="burger__nav-ul">
                             <li><a href="#" class="burger__nav-a">О нас</a></li>
                             <li><a href="#" class="burger__nav-a">Правила</a></li>
@@ -102,33 +103,33 @@
                             <ul class="main-nav__ul">
                                 <li class="main-nav__li">
                                     <span class="qa__li-minus main__minus">&#8722;</span>
-                                    <a href="#" class="main-nav__a">Новый депозит</a>
+                                    <button class="main-nav__button new-deposit__btn">Новый депозит</button>
                                 </li>
                                 <li class="main-nav__li">
                                     <span class="qa__li-minus main__minus">&#8722;</span>
-                                    <a href="#" class="main-nav__a">Ваши депозиты</a>
+                                    <button class="main-nav__button your-deposit__btn">Ваши депозиты</button>
                                 </li>
                                 <li class="main-nav__li">
                                     <span class="qa__li-minus main__minus">&#8722;</span>
-                                    <a href="#" class="main-nav__a">партнеры</a>
+                                    <button class="main-nav__button partnerrs__btn">партнеры</button>
                                 </li>
                                 <li class="main-nav__li">
                                     <span class="qa__li-minus main__minus">&#8722;</span>
-                                    <a href="#" class="main-nav__a">Промо материалы</a>
+                                    <button class="main-nav__button proto-material__btn">Промо материалы</button>
                                 </li>
                                 <li class="main-nav__li">
                                     <span class="qa__li-minus main__minus">&#8722;</span>
-                                    <a href="#" class="main-nav__a">Отзывы</a>
+                                    <button class="main-nav__button feedback__btn">Отзывы</button>
                                 </li>
                                 <li class="main-nav__li">
                                     <span class="qa__li-minus main__minus">&#8722;</span>
-                                    <a href="#" class="main-nav__a">Тех. поддержка</a>
+                                    <button  class="main-nav__button support__btn">Тех. поддержка</button>
                                 </li>
                             </ul>
                         </nav>
                     </div>
 
-                    <div class="menu-info">
+                    <div class="menu-info new-deposit-info">
                         <div class="menu-info__headline">
                             <span class="menu-headline__span lk__span">Открытие нового депозита</span>
                         </div>
@@ -185,6 +186,176 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="menu-info your-deposit-info">
+                        <span class="menu-headline__span lk__span">ваши депозиты</span>
+
+                        <div class="parnters-txt">
+                            <div class="pratners__span">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit consectetur cum natus porro ratione! Sint nesciunt non quia fugit animi. Voluptatum eos consequuntur quis at totam dicta temporibus, molestias error debitis impedit libero nam similique accusamus nihil. Blanditiis soluta dicta debitis aspernatur reiciendis, temporibus omnis cumque vitae labore doloremque? Deserunt!
+                            </div>
+
+                            <div class="dynamic-list">
+                                <ul class="dynamic-list__ul">
+                                    <li class="dynamic-list__li">
+                                        <span class="dynamic-list__span">дата</span>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit amet.</p>
+                                        <p class="dynamic-list__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, deleniti?</p>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, dignissimos, exercitationem enim a fugit beatae recusandae ad nam dolorem explicabo hic tenetur quos corporis aspernatur.</p>
+                                    </li>
+                                    <li class="dynamic-list__li">
+                                        <span class="dynamic-list__span">Сумма</span>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit amet.</p>
+                                        <p class="dynamic-list__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, deleniti?</p>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, dignissimos, exercitationem enim a fugit beatae recusandae ad nam dolorem explicabo hic tenetur quos corporis aspernatur.</p>
+                                    </li>
+                                    <li class="dynamic-list__li">
+                                        <span class="dynamic-list__span">статус</span>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit amet.</p>
+                                        <p class="dynamic-list__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, deleniti?</p>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, dignissimos, exercitationem enim a fugit beatae recusandae ad nam dolorem explicabo hic tenetur quos corporis aspernatur.</p>
+                                    </li>
+                                    <li class="dynamic-list__li">
+                                        <span class="dynamic-list__span">на вывод</span>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit amet.</p>
+                                        <p class="dynamic-list__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, deleniti?</p>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, dignissimos, exercitationem enim a fugit beatae recusandae ad nam dolorem explicabo hic tenetur quos corporis aspernatur.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="menu-info partners-info">
+                        <span class="menu-headline__span lk__span">ваши партнеры</span>
+
+                        <div class="parnters-txt">
+                            <div class="pratners__span">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit consectetur cum natus porro ratione! Sint nesciunt non quia fugit animi. Voluptatum eos consequuntur quis at totam dicta temporibus, molestias error debitis impedit libero nam similique accusamus nihil. Blanditiis soluta dicta debitis aspernatur reiciendis, temporibus omnis cumque vitae labore doloremque? Deserunt!
+                            </div>
+
+                            <div class="dynamic-list">
+                                <ul class="dynamic-list__ul">
+                                    <li class="dynamic-list__li">
+                                        <span class="dynamic-list__span">Регистрация</span>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit amet.</p>
+                                        <p class="dynamic-list__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, deleniti?</p>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, dignissimos, exercitationem enim a fugit beatae recusandae ad nam dolorem explicabo hic tenetur quos corporis aspernatur.</p>
+                                    </li>
+                                    <li class="dynamic-list__li">
+                                        <span class="dynamic-list__span">Кошелек</span>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit amet.</p>
+                                        <p class="dynamic-list__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, deleniti?</p>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, dignissimos, exercitationem enim a fugit beatae recusandae ad nam dolorem explicabo hic tenetur quos corporis aspernatur.</p>
+                                    </li>
+                                    <li class="dynamic-list__li">
+                                        <span class="dynamic-list__span">почта</span>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit amet.</p>
+                                        <p class="dynamic-list__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, deleniti?</p>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, dignissimos, exercitationem enim a fugit beatae recusandae ad nam dolorem explicabo hic tenetur quos corporis aspernatur.</p>
+                                    </li>
+                                    <li class="dynamic-list__li">
+                                        <span class="dynamic-list__span">Откуда</span>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit amet.</p>
+                                        <p class="dynamic-list__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, deleniti?</p>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, dignissimos, exercitationem enim a fugit beatae recusandae ad nam dolorem explicabo hic tenetur quos corporis aspernatur.</p>
+                                    </li>
+                                    <li class="dynamic-list__li">
+                                        <span class="dynamic-list__span">Доход</span>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit amet.</p>
+                                        <p class="dynamic-list__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, deleniti?</p>
+                                        <p class="dynamic-list__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, dignissimos, exercitationem enim a fugit beatae recusandae ad nam dolorem explicabo hic tenetur quos corporis aspernatur.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-info promo-info">
+                        <span class="menu-headline__span lk__span">рекламные материалы</span>
+
+                        <div class="parnters-txt">
+                            <div class="patners__span">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, dignissimos excepturi. Aspernatur id beatae quaerat vel voluptatum, dignissimos itaque numquam?
+                                <p class="patners__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, doloremque.</p>
+                            </div>
+
+                            <div class="partners__button promo__button promo__link">
+                                <span class="partners__button-span">партнерская ссылка</span>
+                                <a href="#" class="partners__btn active__button support__btn">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="at" class="main-share__svg partners__vk" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C118.941 8 8 118.919 8 256c0 137.059 110.919 248 248 248 48.154 0 95.342-14.14 135.408-40.223 12.005-7.815 14.625-24.288 5.552-35.372l-10.177-12.433c-7.671-9.371-21.179-11.667-31.373-5.129C325.92 429.757 291.314 440 256 440c-101.458 0-184-82.542-184-184S154.542 72 256 72c100.139 0 184 57.619 184 160 0 38.786-21.093 79.742-58.17 83.693-17.349-.454-16.91-12.857-13.476-30.024l23.433-121.11C394.653 149.75 383.308 136 368.225 136h-44.981a13.518 13.518 0 0 0-13.432 11.993l-.01.092c-14.697-17.901-40.448-21.775-59.971-21.775-74.58 0-137.831 62.234-137.831 151.46 0 65.303 36.785 105.87 96 105.87 26.984 0 57.369-15.637 74.991-38.333 9.522 34.104 40.613 34.103 70.71 34.103C462.609 379.41 504 307.798 504 232 504 95.653 394.023 8 256 8zm-21.68 304.43c-22.249 0-36.07-15.623-36.07-40.771 0-44.993 30.779-72.729 58.63-72.729 22.292 0 35.601 15.241 35.601 40.77 0 45.061-33.875 72.73-58.161 72.73z"></path></svg>
+                                    vk.com/.....
+                                </a>
+                            </div>
+
+                            <div class="partners__button promo__button promo-div__banner">
+
+                                <span class="partners__button-span promo__banner">Баннер</span>
+                                <p class="partners__btn">
+                                    468x60px
+                                </p>
+
+                                <span class="promo__span">прибыль на полном автомате</span>
+                                <a href="#" class="partners__btn active__button support__btn">
+                                    юююююююююююююююююююююююююююююююююююююююююююююююююю
+                                </a>
+                            </div>
+
+                            <div class="partners__button promo__button promo-div__banner">
+
+                                <span class="partners__button-span promo__banner">Баннер</span>
+                                <p class="partners__btn">
+                                    728x90px
+                                </p>
+
+                                <span class="promo__span">прибыль на полном автомате</span>
+                                <a href="#" class="partners__btn active__button support__btn">
+                                    юююююююююююююююююююююююююююююююююююююююююююююююююю
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="menu-info support-info">
+                        <span class="menu-headline__span lk__span">связь с администрацией проекта</span>
+
+                        <div class="parnters-txt">
+                            <div class="patners__span">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, dignissimos excepturi. Aspernatur id beatae quaerat vel voluptatum, dignissimos itaque numquam?
+                                <p class="patners__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, doloremque.</p>
+                            </div>
+
+                            <div class="partners__button">
+                                <a href="#" class="partners__btn active__button support__btn">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="at" class="main-share__svg partners__vk" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C118.941 8 8 118.919 8 256c0 137.059 110.919 248 248 248 48.154 0 95.342-14.14 135.408-40.223 12.005-7.815 14.625-24.288 5.552-35.372l-10.177-12.433c-7.671-9.371-21.179-11.667-31.373-5.129C325.92 429.757 291.314 440 256 440c-101.458 0-184-82.542-184-184S154.542 72 256 72c100.139 0 184 57.619 184 160 0 38.786-21.093 79.742-58.17 83.693-17.349-.454-16.91-12.857-13.476-30.024l23.433-121.11C394.653 149.75 383.308 136 368.225 136h-44.981a13.518 13.518 0 0 0-13.432 11.993l-.01.092c-14.697-17.901-40.448-21.775-59.971-21.775-74.58 0-137.831 62.234-137.831 151.46 0 65.303 36.785 105.87 96 105.87 26.984 0 57.369-15.637 74.991-38.333 9.522 34.104 40.613 34.103 70.71 34.103C462.609 379.41 504 307.798 504 232 504 95.653 394.023 8 256 8zm-21.68 304.43c-22.249 0-36.07-15.623-36.07-40.771 0-44.993 30.779-72.729 58.63-72.729 22.292 0 35.601 15.241 35.601 40.77 0 45.061-33.875 72.73-58.161 72.73z"></path></svg>
+                                    vk.com/.....
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="menu-info feedback-info">
+                        <span class="menu-headline__span lk__span">отзывы о нашей компании</span>
+
+                        <div class="parnters-txt">
+                            <div class="pratners__span">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, dignissimos excepturi. Aspernatur id beatae quaerat vel voluptatum, dignissimos itaque numquam?
+                            </div>
+
+                            <div class="partners__button">
+                                <a href="#" class="partners__btn active__button">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="vk" class="main-share__svg partners__vk" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="white" d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z"></path></svg>
+                                    В группе Вконтакте    
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
 
 
@@ -273,26 +444,12 @@
         </div>
     </div>
 </footer>
+</div>
 
 
-
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script src="src/scripts/index.js"></script>
-</body>
-
-</html>
 
 <!--modal reg-->
-<!-- <div class="modal modalReg" tabindex="-1" role="dialog">
+<div class="modal modalReg" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -313,10 +470,10 @@
             </div>
         </div>
     </div>
-</div> -->
+</div>
 
 <!--modal auth-->
-<!-- <div class="modal modalAuth" tabindex="-1" role="dialog">
+<div class="modal modalAuth" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -334,4 +491,22 @@
                 <a href="#" class="modal-footer__sign">Войти</a>
             </div>
         </div>
-    </div>  -->
+    </div> 
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="src/scripts/index.js"></script>
+    <script src="src/scripts/lk.js"></script>
+</body>
+
+</html>
+

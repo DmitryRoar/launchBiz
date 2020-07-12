@@ -30,8 +30,9 @@ $$('.reg__btn').forEach(regBtn => {
 
 $$('.auth__btn').forEach(regBtn => {
     regBtn.addEventListener('click', () => {
+        console.log('reg')
         $('.modalAuth').modal()
     })
 })
 
-// console.log('%chello!!!', 'color: red')
+console.log('%chello!!!', 'color: red')
