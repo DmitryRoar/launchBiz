@@ -7,3 +7,7 @@
     font-family: 'ProximaNovaSemibold', sans-serif;
     src: url("../fonts/ProximaNova-Semibold.ttf");
 }
+
+* {
+    font-family: 'ProximaNova', 'sans-serif';
+}
