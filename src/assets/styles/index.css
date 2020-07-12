@@ -1,6 +1,7 @@
 @import "_reset.css";
-@import "_variables.css";
 @import "_fonts.css";
+@import "_variables.css";
+
 
 a {
   color: var(--color-link);
@@ -43,18 +44,6 @@ button {
   background: none;
   outline: none;
 }
-
-/*.header__hr {*/
-/*  margin: 0;*/
-/*  height: 1px;*/
-/*  width: 100vw;*/
-/*  position: absolute;*/
-/*  top: 268px;*/
-/*  left: 0;*/
-/*  padding: 0;*/
-/*  transform: translateX(-18%);*/
-/*  background: #fff;*/
-/*}*/
 
 .header-menu__a {
   margin: 0 50px 0 0;
@@ -121,7 +110,7 @@ button {
 /* ============= */
 
 
-main::before {
+.main-index::before {
   width: 100vw;
   height: 100vh;
   content: '';
@@ -273,17 +262,6 @@ main::before {
   transform: rotate(-45deg);
   bottom: 9px;
 }
-
-/*.content.active::before {*/
-/*  content: '';*/
-/*  position: absolute;*/
-/*  z-index: 1;*/
-/*  top: 268px;*/
-/*  left: 0;*/
-/*  width: 100vw;*/
-/*  height: calc(100vh - 268px);*/
-/*  background: red;*/
-/*}*/
 
 .burger-menu {
   display: none;
@@ -790,4 +768,10 @@ a:hover {
 
 .modal-body {
   flex: 0 1 auto;
+}
+
+
+.main-share__vk {
+  position: relative;
+  top: 4px;
 }
